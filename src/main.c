@@ -14,7 +14,7 @@ int multiplicacion(int x, int y)
     return x * y;
 
 }
-
+aaaaaaaaaaaaaaaaa
 int area (int base, int altura) 
 {
     return (base * altura) / 2;
@@ -22,7 +22,7 @@ int area (int base, int altura)
 }
 
 
-int main() 
+int main()
 {
     int x = 0;
     int y = 0;
@@ -30,7 +30,7 @@ int main()
     printf( "enter the side length: %i\n", &x );
     scanf( "%i", &x );
 
-    int a = area(x);
+    int a = area(x, y);
 
    printf("area: %i\n", a);
     return 0;
