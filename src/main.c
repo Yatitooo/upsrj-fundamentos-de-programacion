@@ -1,38 +1,18 @@
 #include <stdio.h>
 
-int suma(int x, int y) 
-{
-int sum = x + y;
-    return sum;
-
-    
-}
-
-int multiplicacion(int x, int y) 
-{
-    int mul = x * y;
-    return x * y;
-
-}
-aaaaaaaaaaaaaaaaa
-int area (int base, int altura) 
-{
-    return (base * altura) / 2;
-
-}
-
-
 int main()
 {
-    int x = 0;
-    int y = 0;
+   float side;
+   
 
-    printf( "enter the side length: %i\n", &x );
-    scanf( "%i", &x );
+    printf( "Enter the side length:");
+    scanf( "%f", &side);
+    
+    float area = 6 * side * side;
+    float volume = side * side * side;
 
-    int a = area(x, y);
-
-   printf("area: %i\n", a);
+   printf("Square area: %f\n", area);
+    printf("Cube volume: %f\n", volume);
     return 0;
 
 } 
